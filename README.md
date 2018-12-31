@@ -1,30 +1,13 @@
-# vueapptrue
+#项目初始化
+1. 首先在index.html中修改viewport meta,因为是移动端所以要禁止用户缩放等等。
+2. 引入reset.css 样式初始化（所有样式在所有浏览器下是一致的）,在assets文件夹下,在main.js中引入，因为main.js是入口文件。
+3. 1像素边框问题: 引入border.css,在main.js中引入
+4. 300ms点击延迟的问题，点击延迟300ms再执行，引入fastclick库
+   npm install fastclick --save
 
-> A Vue.js project
+   在main.js中使用:
+   import fastclick from 'fastclick'
+   // 引入fastclick
+   fastclick.attach(document.body)
+   // 把fastclick绑定到document.body上面
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
