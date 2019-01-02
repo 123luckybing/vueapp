@@ -10,4 +10,5 @@
    // 引入fastclick
    fastclick.attach(document.body)
    // 把fastclick绑定到document.body上面
-
+5. 在vue中使用less
+   https://blog.csdn.net/Luckyzhoufangbing/article/details/85458440
