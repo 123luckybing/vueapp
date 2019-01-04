@@ -1,8 +1,14 @@
 <template>
   <div class='header'>
-    <div class="back-btn">返回</div>
-    <div class="header-input">输入城市/景点/游玩主题</div>
-    <div class="area">城市</div>
+    <div class="back-btn">
+      <img src="./icon/back.png" alt="">
+    </div>
+    <div class="header-input">
+      输入城市/景点/游玩主题
+    </div>
+    <div class="area">
+      城市
+    </div>
   </div>
 </template>
 
@@ -33,13 +39,15 @@ export default {
   }
 
   .header-input {
+    padding-left: 0.3rem;
     flex: 1;
     margin-top: 0.12rem;
     margin-left: 0.2rem;
     height: 0.64rem;
+    line-height: 0.66rem;
     background: #fff;
     border-radius: 0.1rem;
+    color: #ccc;
   }
 }
 </style>
-
