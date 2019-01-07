@@ -1,13 +1,15 @@
 <template>
   <div class='header'>
     <div class="back-btn">
-      <img src="./icon/back.png" alt="">
+      <img src="../../assets/img/back.png" alt="">
     </div>
     <div class="header-input">
+      <img src="../../assets/img/search.png" alt="">
       输入城市/景点/游玩主题
     </div>
     <div class="area">
       城市
+      <img src="../../assets/img/down.png" alt="">
     </div>
   </div>
 </template>
@@ -31,6 +33,13 @@ export default {
   .back-btn {
     width: 0.64rem;
     float:left;
+
+    img {
+      margin-top: 0.05rem;
+      display: block;
+      width: 0.75rem;
+      height: 0.75rem;
+    }
   }
 
   .area {
@@ -39,15 +48,21 @@ export default {
   }
 
   .header-input {
-    padding-left: 0.3rem;
+    padding-left: 0.1rem;
     flex: 1;
     margin-top: 0.12rem;
     margin-left: 0.2rem;
     height: 0.64rem;
-    line-height: 0.66rem;
     background: #fff;
     border-radius: 0.1rem;
     color: #ccc;
+
+    img {
+      display: inline-block;
+      width: 0.5rem;
+      height: 0.5rem;
+      vertical-align: middle;
+    }
   }
 }
 </style>

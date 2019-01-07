@@ -12,3 +12,4 @@
    // 把fastclick绑定到document.body上面
 5. 在vue中使用less
    https://blog.csdn.net/Luckyzhoufangbing/article/details/85458440
+6. assets中放引入的文件（图片、css、js）
